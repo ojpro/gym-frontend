@@ -1,5 +1,4 @@
 <template>
-<router-link to="/dashboard">dashboard</router-link>
 <router-view></router-view>
 </template>
 

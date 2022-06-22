@@ -1,5 +1,5 @@
 <template>
-  home
+  <router-link to="/dashboard">dashboard</router-link>
 </template>
 
 <script>
