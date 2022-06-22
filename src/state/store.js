@@ -6,13 +6,13 @@ const store = new Vuex.Store({
     state: {
         //TODO: stop using the localforage for sensitive data
         // State to check if the app already installed
-        installed: await localforage.getItem('installed') || false,
+        installed: localforage.getItem('installed') || false,
         // Toggle Dashboard sidebar menu
         openSidebar: true,
         // GYM data
-        gym_id: await localforage.getItem('gym_id'),
+        gym_id: localforage.getItem('gym_id'),
         // Save User ID
-        userId: await localforage.getItem('user_id'),
+        userId: localforage.getItem('user_id'),
     },
     mutations: {
         // Set the installation state
