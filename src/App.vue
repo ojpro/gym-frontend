@@ -1,5 +1,6 @@
 <template>
-  <router-view></router-view>
+<router-link to="{name:'dashboard'}">dashboard</router-link>
+<router-view></router-view>
 </template>
 
 <script>
